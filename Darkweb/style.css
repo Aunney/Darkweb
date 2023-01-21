@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body { 
+    background-color: rgb(12, 12, 12);
+}
+
+.cover {
+    display: block;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.head {
+    text-align: left;
+    margin-left: 25%;
+    font-family: Noto serif thai;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(240, 241, 255, 0.685);
+}
+
+.line, .line2, .line3 {
+    height: 3px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(247, 250, 250, 0.596);
+    border: none;
+}
+
+.subhead, .reason {
+    text-align: left;
+    margin-left: 25%;
+    font-family: Noto serif thai;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(240, 241, 255, 0.685);
+    font-style: italic;
+}
+
+.icontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgb(20, 18, 18);
+    width: 360px;
+    height: 450px;
+    margin: 58px;
+    border-radius: 20px;
+}
+
+.card-image {
+    background-color: rgb(173, 167, 167);
+    height: 200px;
+    margin-bottom: 15px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card h2 {
+    padding: 10px;
+    color: rgb(197, 197, 197);
+    font-family: Noto serif Thai;
+}
+
+.card p {
+    padding: 10px;
+    color: rgb(197, 197, 197);
+    font-family: Noto serif Thai;
+}
+
+.card-1 {
+    background-image: url("https://hilight.kapook.com/img_cms2/user/surattana/22_7_2558/jan.jpg");
+}
+
+.card-2 {
+    background-image: url("https://photo-cms-vovworld.zadn.vn/w500/uploaded/vovworld/wsxrxqeiod/2014_03_14/mong-2.jpg");
+}
+
+.card-3 {
+    background-image: url("https://cdnuploads.aa.com.tr/uploads/Contents/2023/01/13/thumbs_b_c_a60fca78c2f4623bd5c65e20ae063ae8.jpg?v=134600");
+    background-size: 550px 350px;
+}
+
+.card-4 {
+    background-image: url("https://s3-ap-southeast-1.amazonaws.com/thaipbs-news/sites/default/files/news14052015/292343-imagejpeg-455953.jpg");
+}
+.card-5 {
+    background-image: url("https://t1.blockdit.com/photos/2018/12/5c0b679a0cf8c4447e120be5_800x0xcover_dcY3ssae.jpg");  
+    background-size: 500px 300px;
+}
+
+.contact {
+    color: rgb(182, 184, 185);
+    font-size: 15px;
+    font-family: Noto serif Thai;
+    text-align: center;
+    margin: 30px;
+}
